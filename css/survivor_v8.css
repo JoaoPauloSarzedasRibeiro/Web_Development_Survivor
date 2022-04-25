@@ -1,0 +1,1322 @@
+/*Tamanho padrão para pc*/
+@media only screen and (max-width: 480px) {
+	.header-black #btn-bars {
+		display: block;
+	}
+
+	#menu {
+		display: none;
+	}
+
+
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+	height: 88px;
+	background-color: #101820;
+	z-index: 2;
+    position: relative;
+}
+
+header .container {
+	position: relative;
+	text-align: right;
+}
+header .header-black {
+	top: 0;
+	width: 100%;
+	background-color: #101820;
+	z-index: 9;
+	height: 40px;
+}
+
+header .header-black li a {
+	position: fixed;
+	top: 0;
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+header .container #logotipo {
+    position: absolute;
+    top: 1px;
+    z-index: 10;
+    left: calc(50% - 30px);
+    transition: 1s;
+    width: 60px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+#btn-bars {
+	color: #FFB612;
+	font-size: 22px;
+	position: absolute;
+	top: 4px;
+	background: none;
+	border: none;
+	display: none;
+	z-index: 3;
+}
+
+
+#banner, #bannerLogin {
+	background: url("../img/banner.jpg") no-repeat;
+	width: 100%;
+	height: 317px;
+	position: relative;
+	background-position: 0px -100px;
+	top: -190px;
+	background-size: cover;
+	background-position: 0;
+	text-align: center;
+}
+#banner h1 {
+	color: #fff;
+	position: relative;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+	font-family: 'OpenSans-Light';
+	top: 210px;
+	margin-left: 0;
+}
+
+#bannerFazerPalpite h1 {
+color: #fff;
+position: relative;
+text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+border: black;
+font-family: 'OpenSans-Light';
+font-weight: bold;
+top: 127px;
+margin-left: 0;
+}
+
+#banner h1 small {
+	font-size: 25px;
+	display: block;
+	color: #FFF;
+	font-family: 'OpenSans-Light';
+	font-weight: bold;
+}
+
+#classificacao {
+	position: relative;
+    top: 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #C3C3C3;
+    padding: 15px 15px 0;}
+
+#listaguerreiros {
+    position: relative;
+    top: 0px;
+    background-color: #fff;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom: 3px solid #C3C3C3;
+    border-right: 2px solid #C3C3C3;
+}	
+
+#listahall {
+    position: relative;
+    top: 0px;
+    background-color: #fff;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom: 3px solid #C3C3C3;
+    border-right: 2px solid #C3C3C3;
+}		
+
+
+#fazerpalpite {
+	position: relative;
+    top: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #C3C3C3;
+    padding: 15px 15px 0;
+}
+
+#fazerpalpite h2 {
+    color: #FFB612;
+    font-family: 'OpenSans-Light';
+    text-align: left;
+    padding: 0px 15px 0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    margin: auto;
+}
+
+#bannerfazerpalpite {
+	padding: 10px 15px 15px;
+}
+
+#guerreiros {
+	position: relative;
+    top: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #C3C3C3;
+    padding: 15px 15px 0;
+}
+#guerreiros p {
+	font-family: 'OpenSans-Light';
+	padding-top: 5px;
+	margin: auto;
+	padding: 3px 15px 0;
+	text-align: left;
+}
+
+#guerreiros h2 {
+    color: #FFB612;
+    font-family: 'OpenSans-Light';
+    text-align: left;
+    padding: 0px 15px 0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    margin: auto;
+}
+
+#bannerguerreiros {
+	padding: 10px 15px 15px;
+}
+
+#halldafama {
+	position: relative;
+    top: 45px;
+    background-color: #fff;
+    border-bottom: 1px solid #C3C3C3;
+    padding: 15px 15px 0;
+}
+#halldafama p {
+	font-family: 'OpenSans-Light';
+	padding-top: 5px;
+	margin: auto;
+	padding: 3px 15px 0;
+	text-align: left;
+}
+
+#halldafama h2 {
+    color: #FFB612;
+    font-family: 'OpenSans-Light';
+    text-align: left;
+    padding: 0px 15px 0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    margin: auto;
+}
+
+#bannerhalldafama {
+	padding: 10px 15px 15px;
+}
+
+
+
+#historico a {
+	color: #101820;
+}
+
+#classificacao h2 {
+	color: #FFB612;
+    font-family: 'OpenSans-Light';
+    text-align: left;
+    padding: 0px 15px 0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    margin: auto;
+}
+
+
+#listaguerreiros h2, #listaEditarPalpites h2, #dashboard h2, #dashboard2 h2, #listahall h2 {
+	color:#101820;
+	font-family: 'OpenSans-Light';
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.vermais {
+	font-family: 'OpenSans';
+    text-align: center;
+    padding: 0px 15px 8px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    margin: auto;
+}
+
+#listaguerreiros hr, #classificacao hr, #listaEditarPalpites hr, #dashboard hr, #dashboard2 hr, #listahall hr {
+	border:#FFB612 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#classificacao .btn {
+	min-width: 110px;
+    height: 26px;
+    line-height: 34px;
+    border-radius: 0;
+}
+#classificacao .btn-cinza {
+    color: #fff;
+    background-color: #101820;
+    border-color: #101820;
+    width: 110px;
+    margin: 0 auto;
+    font-family: 'OpenSans';
+    border-radius: 4px;
+    margin-top: 21px;
+    height: 44px;
+    box-shadow: 2px 2px 3px #FFB612;
+}
+
+#classificacao .btn-cinza a {
+    position: relative;
+    top: -22px;
+}
+
+#estatisticas {
+	background-color: #FFB612;
+	width: 100%;
+	height: inherit;
+	text-align: center;
+	position: relative;
+	top: -110px;
+}
+#estatisticas p {
+	color: #101820;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 64px;
+	position: relative;
+	top: -5px;
+}
+#estatisticas p small {
+	color: #fff;
+	font-size: 24px;
+	display: block;
+}
+
+#placarjogos {
+	position: relative;
+    top: -70px;
+    margin-bottom: 50px;
+}
+
+#placarjogos h2 {
+	color:#101820;
+	font-family: 'OpenSans-Light';
+	text-transform: uppercase;
+	text-align: center;
+}
+#placarjogos hr {
+	border:#FFB612 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 0px;
+}
+
+
+footer .row-cinza-escuro {
+	height: 62px;
+	background-color: #101820;
+	border-top: #FFB612 2px solid;
+	line-height: 1;
+	padding: 2px;
+}
+
+footer .row-cinza-escuro p{
+	color: #fff;
+    /* text-align: center; */
+    font-family: 'OpenSans-Light';
+    top: 11px;
+    left: 6px;
+    position: relative;
+}
+
+
+
+.faleconosco p{
+	color: #fff;
+	font-family: 'OpenSans';
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.faleconosco p small {
+	color: #fff;
+	font-size: 13px;
+	display: block;
+	font-weight: normal;
+}
+
+header #menu-mobile {
+	position: fixed;
+	top: 0px;
+	background-color: #fff;
+	width: 60%;
+	left:-80%;
+	height: 100%;
+	z-index: 5;
+	transition: 1s;
+}	
+
+header.open-menu #menu-mobile {
+	left:0;
+}
+
+header.open-menu #menu-mobile-mask {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 4;
+}
+
+header.open-menu #logotipo {
+    position: fixed;
+    top: 26px;
+    height: 86px;
+    left: calc(50% - 114px);
+    transform: rotate(360deg);
+
+}
+
+header.open-menu #menu-mobile ul{
+	margin: 10px;
+    text-align: center;
+    margin-top: 128px;
+}
+
+
+
+
+header.open-menu #menu-mobile li a {
+    color: #101820;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px;
+    display: block;
+    text-align: left;
+}
+
+header.open-menu .bar-close {
+	position: absolute;
+	top: 0px;
+	background-color: #FFF;
+	height: 40px;
+	width: 100%;
+}
+
+header.open-menu .bar-close .btn-close {
+	background: none;
+	border: none;
+	color: #FFB612;
+	font-size: 22px;
+	
+}
+
+header #menu-mobile li a{
+	color: #fff;
+}
+
+#menu {
+	position: absolute;
+	top: 29px;
+}
+#menu li {
+	display: inline-block;
+	font-family: 'OpenSans';
+}
+
+#menu li a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 2px 6px;;
+}
+
+header .bar-close .btn-close {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 22px;
+}
+
+.tabplacarjogos {
+	text-align: center;
+	margin-bottom: -84px;
+	position: relative;
+}
+
+.tabguerreiros, .tabhall {
+	text-align: center;
+    margin-bottom: 3px;
+    border-radius: 12px;
+    /* top: 15px; */
+    position: relative;
+    background-color: #fff;
+    padding: 0;
+    border-bottom: 3px solid #C3C3C3;
+    border-right: 2px solid #C3C3C3;
+}
+
+iframe {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 15px;
+}
+
+iframe.framePlacares {
+	height: 405px;
+	width: 92%
+}
+
+table {
+	margin-top: 15px;
+	border:0;
+}
+
+#tab-classificacao {
+  font-family: 'OpenSans';
+  border-collapse: collapse;
+  width: 100%;
+  border:0;
+}
+
+#tab-guerreiros, #tab-hall{
+  font-family: 'OpenSans';
+  border-collapse: collapse;
+  width: 100%;
+  border:0;
+  margin: 0;
+}
+
+
+
+#tab-classificacao td, #tab-classificacao th, #tab-guerreiros td, #tab-guerreiros th {
+	border:0;
+  	padding: 8px;
+  	vertical-align: middle;
+}
+
+ #tab-hall td, #tab-hall th {
+	border:0;
+	padding: 0;
+  	vertical-align: middle;
+}
+
+#tab-classificacao tr:nth-child(even){background-color: #f2f2f2;}
+
+#tab-classificacao tr:hover {background-color: #ddd;}
+
+#tab-classificacao th {
+	border-color: #101820;
+  text-align: center;
+  background-color: #101820;
+  color: #fff;
+  font-weight: normal;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+.cinza {
+	color:#7f8fa6
+}
+
+.resultado {
+	font-size: 20px;
+}
+
+.normal {
+	font-size: 12px;
+}
+
+
+
+#JogosRodada {
+	position: relative;
+    margin-bottom: -8px;
+    top: 55px;
+}
+
+#JogosRodadaResultados {
+	position: relative;
+    margin-bottom: -8px;
+    top: 26px;
+}
+
+#JogosRodada h2,  #JogosRodadaEdicao h2, #formEditarPalpite h2, #resultadosAttConfrontos h2, #JogosRodadaResultados h2{
+	color:#101820;
+	font-family: 'OpenSans-Light';
+	text-transform: uppercase;
+	text-align: center;
+}
+#JogosRodada hr, #JogosRodadaEdicao hr, #formEditarPalpite hr, #resultadosAttConfrontos hr, #JogosRodadaResultados hr {
+	border:#FFB612 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+iframe.frameTabela {
+	height: 750px;
+	width: 100%
+}
+
+.btn-primary {
+	width: 140px;
+	background-color: #101820;
+    border-color: #101820;
+	font-family: 'OpenSans-Light';
+    border-radius: 4px;
+    position: relative;
+    left: calc(50% - 70px);
+    top: 10px;
+    box-shadow: 2px 2px 3px #FFB612;
+
+}
+
+#formPalpite {
+	position: relative;
+	top: 40px;
+	color: #101820;
+}
+
+#bannerFazerPalpite {
+	background: url("../img/fe.jpg") no-repeat;
+	width: 100%;
+	height: 226px;
+	position: relative;
+	top: -88px;
+	background-size: cover;
+	background-position: 0;
+	text-align: center;
+}
+
+#bannerFim {
+	background: url("../img/fimdejogo.png") no-repeat;
+	width: 350px;
+    height: 245px;
+	position: relative;
+	top: 40px;
+	background-size: cover;
+	background-position: 0;
+	text-align: center;
+    margin-bottom: 50px;
+    }
+
+#msg-fim {
+    color: #101820;
+    top: 9px;
+    position: relative;
+    margin-bottom: 128px;
+    text-align: center;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#pbold {
+	font-size: 22px;
+}
+
+
+#btn-editar {
+	color: blue;
+}
+
+#btn-excluir {
+	color: red;
+}
+
+#opcaonovopalpite {
+	min-width: 110px;
+    height: 26px;
+    line-height: 34px;
+    border-radius: 0;
+    position: relative;
+    margin-bottom: 248px;
+}
+
+#opcaonovopalpite .btn-cinza {
+    color: #fff;
+    background-color: #101820;
+    border-color: #101820;
+    width: 110px;
+    margin: 0 auto;
+    font-family: 'OpenSans';
+    border-radius: 4px;
+    margin-top: 2px;
+    height: 31px;
+    box-shadow: 2px 2px 3px #FFB612;
+}
+
+#opcaonovopalpite .btn-cinza a {
+    position: relative;
+    top: -5px;
+}
+
+#listaEditarPalpites {
+	position: relative;
+    top: 0px;
+    margin-bottom: 60px;
+}
+
+#formEditarPalpite {
+	position: relative;
+	top: 20px;
+	color: #101820;
+}
+
+#JogosRodadaEdicao {
+	position: relative;
+    margin-bottom: 87px;
+    top: 70px;
+}
+
+#formLogin {
+	position: relative;
+	top: 50px;
+	margin-bottom: 334px;
+	color: #101820;
+}
+#bannerLogin h1 {
+	color: #fff;
+	position: relative;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	top: 223px;
+	margin-left: 0;
+}
+
+#opcaoCadastro {
+	min-width: 88px;
+    height: 26px;
+    line-height: 34px;
+    border-radius: 0;
+    position: relative;
+    margin-bottom: 106px;
+    top: 124px;
+}
+
+#opcaoCadastro .btn-cinza {
+     color: #fff;
+    background-color: #101820;
+    border-color: #101820;
+    width: 138px;
+    margin: 0 auto;
+    font-family: 'OpenSans-Light';
+    border-radius: 4px;
+    margin-top: 12px;
+    box-shadow: 2px 2px 3px #FFB612;
+    height: 31px;
+}
+
+#opcaoCadastro .btn-cinza a {
+	position: relative;
+    top: -14px;
+}
+
+#formCadastro {
+    position: relative;
+    top: 21px;
+    margin-bottom: 51px;
+}
+
+
+#bannerEdicaoPalpite {
+	background: url("../img/fe2.jpg") no-repeat;
+	width: 100%;
+	height: 226px;
+	position: relative;
+	top: -88px;
+	background-size: cover;
+	background-position: 0;
+	text-align: center;
+}
+
+
+#bannerEdicaoPalpite h1 {
+color: #fff;
+position: relative;
+text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+border: black;
+font-family: 'OpenSans-Light';
+font-weight: bold;
+top: 127px;
+margin-left: 0;
+}
+
+#bannerEditarPalpite {
+	background: url("../img/fe3.jpg") no-repeat;
+	width: 100%;
+	height: 226px;
+	position: relative;
+	top: -88px;
+	background-size: cover;
+	background-position: 0;
+	text-align: center;
+}
+
+
+#bannerEditarPalpite h1 {
+color: #fff;
+position: relative;
+text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+border: black;
+font-family: 'OpenSans-Light';
+font-weight: bold;
+top: 127px;
+margin-left: 0;
+}
+
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#img-load {
+    position: absolute;
+    top: calc(50% - 203px);
+    left: calc(50% - 98px);
+    z-index: 100;
+}
+
+#historico {
+	position: relative;
+    top: 73px;
+    margin-bottom: 73px;
+}
+
+#historicouser {
+	position: relative;
+    margin-bottom: 0px;
+}
+
+#formHistorico {
+	position: relative;
+	top: 18px;
+	margin-bottom: -65px;
+	color: #101820;
+}
+
+#botaoAtt .btn-cinza, #botaoAttResultados .btn-cinza, #botaoRemoverBrancos .btn-cinza, #botaoCheckPalpite .btn-cinza, #botaoAttConfronto .btn-cinza, #botaoAttRodadaAberta .btn-cinza {
+	color: #fff;
+    background-color: #101820;
+    border-color: #101820;
+    width: 140px;
+    margin: 0 auto;
+    font-family: 'OpenSans-Light';
+    border-radius: 4px;
+    margin-top: 2px;
+    box-shadow: 2px 2px 3px #FFB612;
+}
+
+#botaoAtt {
+	position: relative;
+	top:92px;
+	margin-bottom: 35px;
+}
+
+#formAdm {
+	position: relative;
+	top: 20px;
+	margin-bottom: 50px;
+	color: #101820;
+}
+
+#botaoAttResultados {
+	position: relative;
+	top:65px;
+	margin-bottom: -63px;
+}
+
+#botaoRemoverBrancos {
+	position: relative;
+	top:47px;
+	margin-bottom: 25px;
+}
+
+#botaoAttConfronto {
+	position: relative;
+	top: 32px;
+	margin-bottom: 12px;
+}
+
+#botaoAttRodadaAberta {
+	position: relative;
+	top: 32px;
+	margin-bottom: 57px;
+}
+
+#tabJogosRodada {
+	margin-bottom: 110px;
+}
+
+
+
+#bannerPrimAcesso {
+	background: url("../img/primeiroacesso.jpg") no-repeat;
+	width: 100%;
+	height: 226px;
+	position: relative;
+	top: -45px;
+	background-size: cover;
+	background-position: 0;
+	text-align: center;
+}
+
+
+#bannerPrimAcesso h1 {
+color: #fff;
+position: relative;
+text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+border: black;
+font-family: 'OpenSans-Light';
+font-weight: bold;
+top: 127px;
+margin-left: 0;
+}
+
+
+#formPrimAcesso {
+	position: relative;
+	top: 13px;
+	margin-bottom: 305px;
+	color: #101820;
+}
+
+#erro {
+	background-color: #ff6b6b;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+#erro p, #erroPalpite p, #sucessoPalpite p, #erroPrimeiroAcesso p, #sucessoLogin p, #boasvindas p, #erroHistorico p {
+	position: relative;
+	top: 5px;
+}
+
+#erroPalpite {
+	background-color: #ff6b6b;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+
+#sucessoPalpite {
+	background-color: #101820;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+
+#erroPrimeiroAcesso {
+	background-color: #ff6b6b;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+
+#sucessoLogin {
+	background-color: #101820;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+
+#boasvindas {
+	background-color: #101820;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+
+#erroHistorico {
+	background-color: #ff6b6b;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'OpenSans';
+
+}
+
+
+#bannerRegras {
+	background: url(../img/regras.jpg) no-repeat;
+    width: 100%;
+    height: 163px;
+    position: relative;
+    background-position: 0px -100px;
+    top: -42px;
+    background-size: cover;
+    background-position: 0;
+    text-align: center;
+}
+#bannerRegras h1 {
+	color: #fff;
+	position: relative;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, 1);
+	font-family: 'OpenSans-Light';
+	top: 72px;
+	margin-left: 0;
+}
+
+#Regras1 {
+	background-color: #fff;
+	width: 100%;
+	height: inherit;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	margin-bottom: 29px;
+}
+#Regras1 p {
+	color: #101820;
+	font-family: 'OpenSans-Light';
+	font-size: 17px;
+	position: relative;
+	top: -5px;
+	text-align: justify;
+}
+#Regras1 p small {
+	color: #FFB612;
+	font-size: 24px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#Regras1 h2, #checkpalpite h2 {
+	color:#101820;
+	font-family: 'OpenSans-Light';
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+#Regras1 hr, #checkpalpite hr {
+	border:#FFB612 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#trofeu1 {
+	color: #f1c40f;	
+}
+
+#trofeu2 {
+	color: #7f8fa6;	
+}
+
+#trofeu3 {
+	color: #e58e26;	
+}
+
+#trofeu4 {
+	color: #e90052;	
+}
+
+#bolinha {
+	color: #FFB612;
+}
+
+#tab-confrontos, #tab-confrontos-resultados  {
+  font-family: 'OpenSans';
+  border-collapse: collapse;
+  width: 100%;
+  border:0;
+
+}
+
+#tab-confrontos td {
+	border:0;
+	border-bottom: 2;
+  	padding: 8px;
+  	vertical-align: middle;
+  	font-size: 12px;
+}
+
+#tab-confrontos-resultados td {
+	border:0;
+	border-bottom: 2;
+  	padding: 8px;
+  	vertical-align: middle;
+}
+
+#tab-confrontos th, #tab-confrontos-resultados {
+	border-bottom: 2;
+  	padding: 8px;
+  	vertical-align: middle;
+}
+
+#tab-confrontos tr:nth-child(even){background-color: #f2f2f2;}
+
+#tab-confrontos tr:hover {background-color: #ddd;}
+
+#tab-confrontos-resultados tr:nth-child(even){background-color: #f2f2f2;}
+
+#tab-confrontos-resultados tr:hover {background-color: #ddd;}
+
+#tab-confrontos th, #tab-confrontos-resultados th {
+      border: 0;
+	  text-align: center;
+	  background-color: #FFB612;
+	  color: #101820;
+	  font-weight: bold;
+	  font-size: 15px;
+}
+
+#tab-confrontos .data, #tab-confrontos-resultados .data {
+    border: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #101820;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    border-radius: 33px;
+}
+
+
+#confrontos h2 {
+    color: #FFB612;
+    font-family: 'OpenSans-Light';
+    text-align: left;
+    padding: 0px 15px 0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    margin: auto;
+}
+#confrontos hr {
+	border:#FFB612 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#confrontos {
+	position: relative;
+    top: 60px;
+    margin-bottom: 70px;
+     background-color: #fff;
+    border-bottom: 1px solid #C3C3C3;
+    padding: 15px 15px 0;}
+}
+
+.header-black #nome-user {
+    color: #FFB612;
+	text-align: right;
+    width: 47%;
+    left: 24%;
+    font-size: 11px;
+    top: 12px;
+    font-weight: bold;
+}
+
+.header-black #nome-user a {
+    color: #FFB612;
+	text-align: right;
+    width: 97%;
+    font-size: 11px;
+}
+
+.header-black #nome-user p {
+color: #FFB612;
+    text-align: right;
+    width: 97%;
+    font-size: 11px;
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+}
+
+#inicio-rodada h1{
+	color:#101820;
+	font-size: 17px;
+	font-family: 'OpenSans-Light';
+	margin:3px;
+
+}
+
+
+#inicio-rodada p{
+	color:#101820;
+	font-size: 15px;
+	font-family: 'OpenSans';
+	margin:3px;
+}
+
+#iniciorodada {
+	background-color: #FFB612;
+	width: 100%;
+	height: inherit;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+#checkpalpite {
+	position: relative;
+    top: 10px;
+    margin-bottom: 20px;
+}
+
+#loading-image {
+	height: 180px;
+}
+
+#formAttResultados{
+	position: relative;
+	top: 20px;
+	margin-bottom: 42px;
+	color: #101820;
+}
+
+#btn-excluir {
+	color: #FFB612;
+    font-size: 19px;
+}
+
+#btn-editar {
+	color: #101820;
+    font-size: 19px;
+}
+
+#dashboard hr {
+	margin-bottom: 17px;
+}
+
+#dashboard h2 {
+	margin-top: 27px;
+}
+
+#dashboard2 hr {
+	margin-bottom: 17px;
+}
+
+#dashboard2 h2 {
+	margin-top: 55px;
+}
+
+#resultadosAttConfrontos {
+	position: relative;
+    margin-bottom: 81px;
+    top: 55px;
+}
+
+#dashboard2 {
+	margin-bottom: 50px;
+}
+
+#logoguru{
+	position: relative;
+    text-align: center;
+    top: 14px;
+}
+
+.accordion {
+	position: relative;
+    width: 100%;
+    border-radius: 13px;
+    background: #fff;
+    border-color: #fff;
+    border-bottom: 3px solid #C3C3C3;
+    border-right: 2px solid #C3C3C3;
+    padding: 6px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'OpenSans';
+    transition: 0.4s;
+
+}
+
+.accordion:after {
+		    content: '\02795'; /* Unicode character for "plus" sign (+) */
+		    font-size: 13px;
+		    float: right;
+		    margin-left: 5px;
+		}
+
+.active:after {
+		    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.panel {
+	padding: 0;
+    background-color: rgba(0,0,0,0);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin: 0;
+}
